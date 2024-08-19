@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Consistency",
+    "slug": "Consistency",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/first.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/second.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "permissions":[
+          "WRITE_EXTERNAL_STORAGE",
+          "READ_EXTERNAL_STORAGE"
+        ]
+      },
+      "package": "abcde109.a"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4832f1b1-45eb-4b47-ba39-9871dc5d6b36"
+      }
+    }
+  }
+}
